@@ -5,7 +5,7 @@
 git clone https://github.com/RockyWuy/home_school.git
 
 # 安装依赖
-npm init
+npm install
 
 # 启动项目
 npm start -> umi dev
