@@ -1,0 +1,55 @@
+
+@import '../../../reset.less';
+
+.title {
+  width: 100%;
+  height: 96*@pixed;
+  background: @white;
+  -webkit-box-shadow: @shadow;
+  box-shadow: @shadow;
+  transition: all .3s;
+}
+.content {
+  width: 1224*@pixed;
+  height: 100%;
+  margin: 0 auto;
+}
+.logo {
+  float: left;
+  margin-top: 3*@gap;
+  width: 4*@hundred;
+  height: 53*@pixed;
+  background: url('../../../assets/images/school_logo.jpg') no-repeat;
+}
+.floatHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8*@gap;
+  background: @white-op8;
+  box-shadow: @shadow;
+  transition: all .3s;
+}
+.floatContent {
+  width: 1224*@pixed;
+  height: 100%;
+  margin: 0 auto;
+  >ul {
+    float: right;
+    height: 63*@pixed;
+    line-height: 63*@pixed;
+    margin-top: 0;
+    font-size: 16*@pixed;
+    background: @white-op8;
+    border-bottom: none;
+  }
+}
+.floatLogo {
+  float: left;
+  margin-top: 18*@pixed;
+  width: 4*.6*@hundred;
+  height: 53*.6*@pixed;
+  background: url('../../../assets/images/school_logo.jpg') no-repeat;
+  background-size: 100% 100%;
+}
